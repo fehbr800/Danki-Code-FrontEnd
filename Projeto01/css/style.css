@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    ;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #212343;
+}
+
+.header img {
+    margin: 19px;
+}
+
+.container-banner {
+    width: 100%;
+    height: 557px;
+    background-image: url('../images/header_bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container-banner>.center {
+    height: 100%;
+
+}
+
+.form {
+    padding: 10px;
+    width: 400px;
+    height: calc(100% + 30px);
+    float: right;
+    position: relative;
+    top: -15px;
+    border-width: 12px;
+    border-color: rgba(120, 120, 120, 0.5);
+    border-style: solid;
+    background-clip: padding-box;
+    background-color: aliceblue;
+}
+
+.form h2 {
+    color: #999999;
+    font-size: 21px;
+}
+
+.input-container {
+    margin-top: 20px;
+
+}
+
+.input-container span,
+.form p {
+    display: inline-block;
+    width: 100%;
+    color: #bbbbbb;
+    font-size: bold;
+}
+
+.form p {
+    margin: 20px 0;
+}
+
+.input-container input {
+    padding: 10px;
+    margin-top: 8px;
+    width: 344px;
+    height: 55px;
+    border: 1px solid #ccc;
+}
+
+.form .input-submit-container {
+    text-align: center;
+
+}
+
+form input[type=submit] {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: white;
+    font-size: 25px;
+    width: 280px;
+    height: 56px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #363a6d;
+    border-bottom: 5px solid #4a5097;
+
+}
+
+form input[type=submit]:hover {
+    background-color: #323655;
+}
+
+.container-list {
+    padding: 30px;
+    margin-top: 40px;
+    float: left;
+    width: 619px;
+    height: 270px;
+    background-color: rgba(33, 35, 67, 0.7);
+}
+
+.container-list ul {
+    list-style-position: inside;
+}
+
+.container-list ul li {
+    margin-top: 18px;
+    color: white;
+}
+
+.container-2{
+    padding: 40px 0;
+    background-color: #DDDDDD;
+    text-align: center;
+}
+
+.container-2 p{
+    display: inline-block;
+    text-align: justify;
+    margin: 15px 0 ; 
+    width: 698px;
+}
+
+.arrow{
+    position: relative;
+    top: 60px;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/arrow.png);
+    background-size: 100% 100%;
+}
