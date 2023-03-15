@@ -1,9 +1,10 @@
 //Array
-            var nome = [];
-            nome[0] = 'Matheus';
-            nome[100] = 'Manel';
 
-            console.log(nome[0])
+var nome = [];
+nome[0] = 'Matheus';
+nome[100] = 'Manel';
+
+console.log(nome[0])
 
 //Objeto
 
@@ -18,3 +19,5 @@ animal.nome[0] = 'Boby';
 animal.nome[1] = 'Totô';
 
 console.log(animal)
+
+//Typeof
