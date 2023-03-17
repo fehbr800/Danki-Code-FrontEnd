@@ -307,6 +307,10 @@ section.final-section h2:hover > .borda-efeito{
     margin-top: 15px;
 }
 
+.equipe-single{
+    
+}
+
 @media screen and (max-width: 768px) {
     .w50{
         width: 100%;
