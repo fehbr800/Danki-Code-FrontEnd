@@ -1,0 +1,72 @@
+
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+.sect1{
+  position: relative;
+  min-height:400px ;
+}
+
+.form-container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #fafafa ;
+  padding: 15px 2%;
+  width: 100%;
+  max-width: 700px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.custom-title{
+  position: relative;
+}
+
+.custom-title h2{
+  position: relative;
+  color: black;
+  font-size: 28px;
+  z-index: 2;
+  background: white;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.custom-title > div{
+  width: 100%;
+  position: absolute;
+  height: 3px;
+  top: 50px;
+  z-index: 1;
+  background: #777;
+  left: 0;
+
+}
+
+.sidenav-trigger {
+  color: white;
+}
+
+
+@media only screen and (max-width : 992px) {
+
+}
+
+
+@media only screen and (max-width : 600px) {
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+ }
