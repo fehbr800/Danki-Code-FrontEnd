@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div ng-app="myShoppingList" ng-controller="myCtrl">
+        <ul>
+          <li ng-repeat="x in products">
+            {{x}}<span ng-click="removeItem($index)">&times;</span>
+          </li>
+        </ul>
+        <input ng-model="addMe">
+        <button ng-click="addItem()">Add</button>
+        <p>{{errortext}}</p>
+      </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
