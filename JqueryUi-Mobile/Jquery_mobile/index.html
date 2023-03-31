@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <title>Document</title>
+
+    <style>
+        div.box {
+          width: 500px;
+          height: 500px;
+          background-color: #108040;
+        }
+        </style>
+</head>
+
+<body>
+
+
+    <h3>Swipe the green rectangle to change its color:</h3>
+    <div class="box"></div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script>
+    $(function(){
+  $.event.special.swipe.horizontalDistanceThreshold = 300;
+  $.event.special.swipe.durationThreshold = 3000;
+  $( "div.box" ).on( "swipe", function(){
+    $('.box').css('background', 'red')
+  } );
+ 
+  // Callback function references the event target and adds the 'swipe' class to it
+ 
+});
+</script>
+</body>
+
+</html>
