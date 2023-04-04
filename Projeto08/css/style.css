@@ -82,11 +82,218 @@ li.selected > span{
 div.telefone-header{
     float: left;
     position: relative;
-    top: -8px;
+    top: -3px;
 }
 
 div.telefone-header span{
-    font-size: 25px;
+    font-size: 22px;
     color: white;
     padding-left: 30px;
+}
+
+.content-header{
+    padding: 60px 0;
+}
+
+.content-header .one{
+    float: left;
+    width: 50%;
+
+}
+
+.content-header .one h2{
+    color: #509d87;
+    font-weight: normal;
+    font-size: 37px;
+}
+
+.content-header .one p,
+.content-header .one span{
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.content-header .one form input{
+    display: inline-block;
+}
+
+.content-header .one form input[type=email]{
+    width: 251px;
+    height: 50px;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    margin: 10px 0;
+    padding: 15px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.content-header .one form input[type=email]{
+    outline: 0;
+}
+
+.content-header .one form input[type=submit]{
+    background-color: #00daaa;
+    color: white;
+    height: 40px;
+    cursor: pointer;
+    border: 0;
+    margin: 10px 0;
+    padding: 10px 30px;
+    font-size: 14px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.content-header .one span{
+    color: #509d87;
+    font-size: 13px;
+    margin-top: 20px;
+    display: block;
+}
+
+
+.content-header .two{
+    float: left;
+    width: 50%;
+    padding: 0 30px;
+
+}
+
+.content-header .two img{
+   float: left;
+    width: 50%;
+    border: 10px solid rgba(0,0,0,0);
+}
+
+/* Diferenciais */
+
+section.diferenciais{
+    padding: 40px 0;
+}
+
+section.diferenciais > .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single{
+    width: 33.3%;
+    margin-bottom:30px;
+}
+
+.diferencial-single img{
+    max-width: 100%;
+}
+
+.diferencial-single h2{
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+
+.diferencial-single h2 > b{
+    color: #7dd5b0;
+}
+
+.diferencial-single p{
+    color: #2d2d2d;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Sobre */
+
+.sobre > .container{
+    max-width: 1440px;
+}
+
+.sobre-container{
+    float: left;
+    width: 50%;
+}
+
+.sobre-container img{
+    max-width: 100%;
+}
+
+.sobre-container h2{
+    font-size: 33px;
+    margin: 10px 0;
+    color: #a9c4b8;
+    font-weight: normal;
+}
+
+
+.sobre-container h2 > b{
+    color: #03ca9f;
+}
+
+.sobre-container p{
+    font-size: 15px;
+
+}
+
+.padsobre{
+    padding: 10px 50px;
+}
+
+section.depoimento{
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 300px ;
+    background-image: url('/images/bg_02.png');
+    background-size: cover;
+    color: #2d2d2d;
+    text-align: center;
+}
+
+section.depoimento h2{
+    font-weight: normal;
+    font-size: 29px;
+    
+}
+
+section.depoimento p{
+    font-size: 15px;
+    
+}
+
+@media screen and (max-width: 900px) {
+
+    .sobre-container{
+        width: 100%;
+    }
+
+    .padsobre{
+        padding: 0;
+    }
+
+    .diferencial-single{
+        width: 100%;
+        text-align: center;
+    }
+
+    .content-header .one{
+        text-align: center;
+        width: 100%;
+    }
+    .content-header .two{
+        display: none;
+    }
+    .telefone-header{
+        display: none;
+    }
+
+    nav.desktop{
+        display: none;
+    }
+    section.header-master{
+        min-height: 400px;
+    }
 }
