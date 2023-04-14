@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body{
+    background: #faf9fc;
+    height: 100%;
+}
+
+.sidebar{
+    background: #203035;
+    height: 100%;
+    width: 300px;
+}
+
+.topo{
+    background: #25282d;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.topo h3{
+    color: white;
+}
+
+.menu{
+    padding: 30px;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu li{
+    transition: 0.6s;
+    font-size: 18px;
+    color: #717171;
+    margin-bottom: 20px;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+
+.menu ul li a{
+    font-size: 18px;
+    color: #717171;
+    text-decoration: none;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+
+.menu li:hover i{
+ color: purple;
+} 
+
+.menu li:hover a{
+    color: white;
+}
